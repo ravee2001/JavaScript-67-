@@ -7,5 +7,5 @@ function printHello(name){
 console.log(printHello.name)
 
 //2.Function Invocation
-let result = printHello("Kanruethai !");
+let result = printHello("sirinya !");
 console.log(result);
