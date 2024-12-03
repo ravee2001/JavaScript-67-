@@ -60,6 +60,7 @@ console.log(result);
 
 /*   ผลลัพธ์ทั้งหมดที่แสดงในคอนโซล:
    1.เมื่อเรียกใช้ printHello.name จะได้:
+     
      printHello
    
    2.เมื่อเรียกใช้ฟังก์ชัน printHello("sirinya !") และพิมพ์ผลลัพธ์จาก result จะได้:
