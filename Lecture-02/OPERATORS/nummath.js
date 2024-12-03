@@ -17,3 +17,5 @@ console.log("********Using the Math Object********");
 //Using the Math object
 console.log(Math.PI); //Pi
 console.log(Math.sqrt(num1)); //Square root
+
+// วิธีรันในterminal node '.\Lecture-02\OPERATORS\numconv.js' 
