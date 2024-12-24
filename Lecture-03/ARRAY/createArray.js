@@ -1,11 +1,11 @@
-let arrayLength = 7;
-let arr1 = [];
-let arr2 = Array(arrayLength);
-let arr3 = ['A', false, 5]
+let arrayLength = 7; // กำหนดตัวแปร arrayLength ให้มีค่าเป็น 7 ซึ่งจะถูกใช้ในคำสั่งต่อไปสำหรับการสร้างอาร์เรย์ที่มีความยาวเท่ากับค่าในตัวแปรนี้
+let arr1 = []; // สร้างอาร์เรย์ว่าง arr1 ที่ไม่มีสมาชิกใด ๆ (ความยาวเริ่มต้นคือ 0)
+let arr2 = Array(arrayLength); // สร้างอาร์เรย์ arr2 โดยกำหนดความยาวไว้ล่วงหน้าที่ 7 แต่ยังไม่มีค่าใด ๆ ในแต่ละตำแหน่ง (ทุกตำแหน่งเป็น undefined)
+let arr3 = ['A', false, 5] // สร้างอาร์เรย์ arr3 ที่มีสมาชิก 3 ตัวคือ 'A' (ตัวอักษร), false (ค่าบูลีน), และ 5 (ตัวเลข)
 
 //Getting array length
-console.log(arr1.length); //0
-console.log(arr2.length); //7
-console.log(arr3.length); //3
-console.log(arr3[0]); //A
-console.log(arr3[2]); //5
+console.log(arr1.length); //0 --> แสดงความยาวของ arr1 ซึ่งเป็น 0 เพราะเป็นอาร์เรย์ว่าง ไม่มีสมาชิกใด ๆ
+console.log(arr2.length); //7 --> แสดงความยาวของ arr2 ซึ่งเป็น 7 แม้ว่าอาร์เรย์นี้จะยังไม่มีค่าที่กำหนด (ทุกตำแหน่งยังเป็น undefined)
+console.log(arr3.length); //3 --> แสดงความยาวของ arr3 ซึ่งเป็น 3 เพราะมีสมาชิก 3 ตัว ('A', false, และ 5)
+console.log(arr3[0]); //A --> แสดงค่าของสมาชิกตัวแรกใน arr3 (ตำแหน่งที่ 0) ซึ่งคือ 'A'
+console.log(arr3[2]); //5 --> แสดงค่าของสมาชิกในตำแหน่งที่ 2 ของ arr3 ซึ่งคือ 5
