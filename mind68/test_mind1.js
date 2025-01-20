@@ -6,8 +6,7 @@ function numberSpliit(numberSpliit) {
     let arry01 = []
         arry01.push(mind(numberSpliit,2))
         arry01.push(mind1(numberSpliit,2))
-        console.log(arry01)
-        return mind;
+        return arry01;
 
 };
 
