@@ -24,7 +24,7 @@ function capToFront(input) {
     return `${upperCaseChars}${lowerCaseChars}, ตัวเลข: ${numbers.split('').join(',')}, เครื่องหมาย: ${symbols.split('').join(',')}`;
 }
 
-// ตัวอย่างการเรียกใช้งาน:
-console.log(capToFront(["hA2pPy", "23#"], ["ASd", "2#"]));
-console.log(capToFront("move1MENT"));
-console.log(capToFront("shOrt23CAKE"));
+// ตัวอย่างการเรียกใช้งานที่ถูกต้อง:
+console.log(capToFront(["hA2pPy", "23#"]));       // สำหรับอาร์เรย์
+console.log(capToFront("move1MENT"));             // สำหรับข้อความ
+console.log(capToFront("shOrt23CAKE"));           // สำหรับข้อความ
